@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  background-color: #f1f1f1;
+}
+.container div {
+  background-color: blue;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+#item-1 {
+  flex-basis: 200px;
+}
+#item-2 {
+  flex-basis: 300px;
+}
+#item-3 {
+  flex-basis: 350px;
+}
+#item-4 {
+  flex-basis: 400px;
+}

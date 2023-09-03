@@ -1,0 +1,55 @@
+body {
+  /* background-color: lightblue;      имя цвет */
+  /* background-color: #d4d4d4;        HEX value*/
+  /* background-color: rgb(255, 0, 0); RGB  */
+}
+/* h1 {
+  background-color: green;
+}
+div {
+  background-color: lightblue;
+}
+p {
+  background-color: yellow;
+} */
+div {
+  background-color: green;
+}
+div.first {
+  /* Прозрачность [0 -> 1] */
+  /* opacity: 0.1; */
+  background-color: rgba(0, 128, 0, 0.1);
+}
+div.second {
+  /* opacity: 0.3; */
+  background-color: rgba(0, 128, 0, 0.3);
+}
+div.third {
+  /* opacity: 0.6; */
+  background-color: rgba(0, 128, 0, 0.6);
+}
+
+body {
+  /* background-image: url(https://images7.alphacoders.com/122/1226930.jpg); */
+  /* background-image: url(https://cdn.iconscout.com/icon/free/png-256/free-react-1-282599.png?f=webp); */
+  /* background-repeat: repeat-x; */
+  /* background-repeat: repeat-y; */
+  /* background-repeat: no-repeat; */
+  /* background-position: left top; */
+  /* background-position: right top; */
+  /* background-position: left bottom; */
+  /* background-position: right bottom; */
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+  /* background-attachment: scroll; */
+  /* 
+  background-color: #fffff;
+  background-image: url(link);
+  background-repeat: no-repeat;
+  background-position;
+  background: #fffff url(link) no-repeat center !!!!!!!! 
+  */
+  /*          цвет     ссылка на картинку    повторение    позиционирование */
+  background: #ffffff url(https://images7.alphacoders.com/122/1226930.jpg)
+    no-repeat center;
+}

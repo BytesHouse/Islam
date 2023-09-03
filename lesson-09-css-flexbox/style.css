@@ -1,0 +1,46 @@
+.container {
+  font-size: 24px;
+  color: white;
+  display: flex;
+  border: 1px solid black;
+
+  /* Основная ось */
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+
+  /* Дополнительная ось */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  align-items: center;
+
+  /* Направление оси */
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  flex-direction: column;
+  /* flex-direction: column-reverse; */
+}
+.item-1 {
+  height: 500px;
+  background-color: red;
+  width: 300px;
+}
+.item-2 {
+  height: 300px;
+  background-color: blue;
+  width: 300px;
+}
+.item-3 {
+  height: 300px;
+  background-color: blueviolet;
+  width: 300px;
+}
+.item-4 {
+  height: 300px;
+  background-color: yellow;
+  width: 300px;
+}

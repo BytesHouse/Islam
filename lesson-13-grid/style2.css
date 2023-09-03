@@ -1,0 +1,26 @@
+/* .container {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 4.5fr 5fr 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 100px);
+} */
+.black {
+    background-color: black;
+}
+.flex-container {
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+}
+
+.container1 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 50px);
+    grid-template-rows: repeat(3, 50px);
+}
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(9, 50px);
+    align-self: flex-end;
+}

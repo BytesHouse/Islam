@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  align-items: stretch;
+  background-color: gray;
+}
+.container div {
+  background-color: blue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+#item-3 {
+  flex-shrink: 2;
+}

@@ -1,0 +1,36 @@
+/* Селектор по тегу */
+p {
+  /* text-align: center; */
+  color: red;
+}
+/* Селектор по ID */
+#para1 {
+  color: blue;
+}
+/* Селектор по class */
+.center {
+  /* text-align: center; */
+  border: 1px solid black;
+}
+/*  */
+p.center {
+  text-align: center;
+}
+p.large {
+  font-size: 300%;
+}
+/* Универсальный Селектор */
+* {
+  /* font-family: sans-serif; */
+  font-family: cursive;
+}
+
+/* 
+Шаблон                    Пример        Описание
+#id                    -> #firstName -> по идентификтор
+.class                 -> .intro     -> по классу
+element.class          -> p.intro    -> выбирает все параграфы с классом intro
+*                      -> *          -> выбирает (select) всех элементов
+element                -> p          -> выбирает все <p> элементы
+element1, element2...  -> p, div, h1 -> выбирает все параграфы, все div's и все h1
+*/

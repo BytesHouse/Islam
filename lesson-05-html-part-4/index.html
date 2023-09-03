@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>My First JavaScript</h1>
+    <button onclick="document.getElementById('paragraph').innerHTML = Date()">
+      Click me to display Date and Time
+    </button>
+    <p id="paragraph"></p>
+    <hr />
+    <h2>My Second JavaScript</h2>
+    <button
+      onclick="document.getElementById('paragraph-2').style.fontSize = '50px'"
+    >
+      Click me
+    </button>
+    <p id="paragraph-2"></p>
+
+    <script>
+      document.getElementById("paragraph-2").innerHTML =
+        "<h1>Hello JavaScript</h1>";
+    </script>
+
+    <hr />
+    <h3>My third JavaScript</h3>
+    <img id="myPicture" src="elephant_1.jpeg" alt="" />
+    <button onclick="changePicture(0)">Elephant 1</button>
+    <button onclick="changePicture(1)">Elephant 2</button>
+
+    <script>
+      function changePicture(sw) {
+        var picture;
+        if (sw == 0) {
+          picture = "elephant_1.jpeg";
+        } else {
+          picture = "elephant_2.jpeg";
+        }
+        document.getElementById("myPicture").src = picture;
+      }
+    </script>
+  </body>
+</html>
+
+<!-- 
+    JavaScript
+1) Изменять Содержимое (контент) тегов
+2) Изменять стили у тегов
+3) Изменять значения аттрибутов
+
+-->

@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poller One", cursive;
+}
+
+body {
+  background-image: url(./Images/sky.jpg);
+  color: goldenrod;
+  background-attachment: fixed;
+}
+header {
+  background-color: rgba(60, 69, 67, 0.6);
+  border-radius: 15px 15px 0 0;
+}
+nav ul {
+  list-style-type: none;
+  position: fixed;
+}
+nav li {
+  display: inline;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgba(284, 3, 35, 0.5);
+}
+nav li a {
+  text-decoration: none;
+  color: goldenrod;
+}
+nav li a:visited {
+  color: goldenrod;
+}
+header h1 {
+  text-align: center;
+  padding: 15px 0;
+  letter-spacing: 0.2em;
+}
+footer {
+  background-color: rgba(60, 69, 67, 0.6);
+  border-radius: 0 0 15px 15px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  float: left;
+  margin: 5px 15px 0 5px;
+}
+.right {
+  float: right;
+  margin: 5px 5px 0 15px;
+  border: 1px solid goldenrod;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.right img {
+  height: 120px;
+  width: 160px;
+}
+.farGalaxy {
+  font-size: 28px;
+  letter-spacing: 0.2em;
+  line-height: 1.5;
+  text-align: justify;
+}
+.img-container {
+  width: 500px;
+  height: 380px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.right h2 {
+  text-align: center;
+}
+#hawk {
+  border-bottom-left-radius: 15px;
+}
+#yoda {
+  border-bottom-right-radius: 15px;
+}
+.button {
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: rgba(284, 3, 35, 0.5);
+  width: 200px;
+  cursor: pointer;
+  margin-left: 35px;
+}
+.button p {
+  text-align: center;
+}

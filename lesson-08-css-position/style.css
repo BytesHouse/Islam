@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  width: 250px;
+  height: 150px;
+  border: 1px solid black;
+}
+.item-1 {
+  background-color: brown;
+  position: static;
+}
+.item-2 {
+  background-color: aquamarine;
+  position: relative;
+  left: 250px;
+  /* right: 250px; */
+  /* top: 75px; */
+  /* bottom: 50px; */
+  z-index: 1; /* 0 - 9999*/
+}
+.item-3 {
+  background-color: cadetblue;
+  position: absolute;
+  left: 500px;
+  z-index: 0;
+}
+.item-4 {
+  background-color: yellow;
+  position: relative;
+  left: 250px;
+}
+.item-5 {
+  background-color: green;
+  position: relative;
+}

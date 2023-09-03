@@ -1,0 +1,62 @@
+table,
+th,
+td {
+  /* border: 1px solid black; */
+  /* border-collapse: collapse; */
+  border-radius: 10px;
+  /* для создания круга border-radius: 50% */
+}
+/* Селектор по тегу (отвечает кому подключить стиль) */
+th,
+td {
+  border-color: rgb(35, 90, 58);
+  border-style: solid;
+  border-width: 5px;
+  background-color: aqua;
+
+  /* Стили границ */
+
+  /* border-style: dotted;
+  border-style: dashed;
+  border-style: solid;
+  border-style: double;
+  border-style: groove; */
+  /* border-style: ridge; */
+  /* border-style: inset; */
+  /* border-style: outset; */
+  /* border-style: none; */
+
+  /* Выравнивание текста */
+
+  /* text-align: left; */
+  /* text-align: center; */
+  text-align: right;
+
+  /* Paddings */
+  padding: 15px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 45px;
+}
+
+ul {
+  /* list-style-type: disc; */
+  /* list-style-type: circle; */
+  /* list-style-type: square; */
+  /* list-style-type: none; */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 25px;
+  background-color: #333333;
+}
+li {
+  /* float: left; */
+  margin-left: 25px;
+}
+li a:hover {
+  background-color: #111111;
+}
